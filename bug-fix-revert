@@ -1,0 +1,9 @@
+PS> curl.exe -s https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/13859 | ConvertFrom-Json | Select-Object html_url,state,@{Name='head_label';Expression={$_.head.label}},@{Name='head_repo';Expression={$_.head.repo.full_name}},@{Name='head_repo_fork';Expression={$_.head.repo.fork}},@{Name='base_repo';Expression={$_.base.repo.full_name}} | ConvertTo-Json
+{
+    "html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pull/13859",
+    "state": "closed",
+    "head_label": "SergioGC1:bug-fix-revert",
+    "head_repo": "SergioGC1/mcino-Introduction-to-Git-and-GitHub",
+    "head_repo_fork": true,
+    "base_repo": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
+}

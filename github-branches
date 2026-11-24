@@ -1,0 +1,13 @@
+Branches page:
+https://github.com/SergioGC1/mcino-Introduction-to-Git-and-GitHub/branches
+
+PS> git branch -a -vv
+  bug-fix-revert                8f75776 [origin/bug-fix-revert] Revert "Fix typo in README footer"
+  bug-fix-typo                  d2deccf [origin/bug-fix-typo] Fix typo in README footer
+* main                          d2deccf [origin/main] Fix typo in README footer
+  remotes/origin/HEAD           -> origin/main
+  remotes/origin/bug-fix-revert 8f75776 Revert "Fix typo in README footer"
+  remotes/origin/bug-fix-typo   d2deccf Fix typo in README footer
+  remotes/origin/main           d2deccf Fix typo in README footer
+  remotes/upstream/HEAD         -> upstream/main
+  remotes/upstream/main         ad95b0a Create close_pr.yml

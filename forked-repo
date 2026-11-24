@@ -1,0 +1,8 @@
+PS> curl.exe -s https://api.github.com/repos/SergioGC1/mcino-Introduction-to-Git-and-GitHub | ConvertFrom-Json | Select-Object html_url,full_name,private,fork,@{Name='parent';Expression={$_.parent.full_name}} | ConvertTo-Json
+{
+    "html_url": "https://github.com/SergioGC1/mcino-Introduction-to-Git-and-GitHub",
+    "full_name": "SergioGC1/mcino-Introduction-to-Git-and-GitHub",
+    "private": false,
+    "fork": true,
+    "parent": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
+}

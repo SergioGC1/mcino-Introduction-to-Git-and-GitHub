@@ -1,0 +1,9 @@
+PS> git checkout main
+Your branch is up to date with 'upstream/main'.
+Switched to branch 'main'
+
+PS> git merge bug-fix-typo
+Updating ad95b0a..d2deccf
+Fast-forward
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
